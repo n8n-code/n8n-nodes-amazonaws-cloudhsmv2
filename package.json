@@ -1,7 +1,7 @@
 {
   "name": "@n8n-dev/n8n-nodes-amazonaws-cloudhsmv2",
-  "version": "1.0.0",
-  "description": "For more information about AWS CloudHSM, see AWS CloudHSM and the AWS CloudHSM User Gu..",
+  "version": "1.0.1",
+  "description": "For AWS CloudHSM details, see AWS CloudHSM and User Guide.",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-amazonaws-cloudhsmv2",
   "keywords": [
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "amazonaws-cloudhsmv2"

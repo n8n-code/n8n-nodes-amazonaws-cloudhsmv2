@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class AmazonawsCloudhsmv2 implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'amazonaws-cloudhsmv2',
+		displayName: 'Amazonaws Cloudhsmv2',
 		name: 'N8nDevAmazonawsCloudhsmv2',
 		icon: { light: 'file:./amazonaws-cloudhsmv2.png', dark: 'file:./amazonaws-cloudhsmv2.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'For more information about AWS CloudHSM, see AWS CloudHSM and the AWS CloudHSM User Gu..',
-		defaults: { name: 'amazonaws-cloudhsmv2' },
+		description: 'For AWS CloudHSM details, see AWS CloudHSM and User Guide.',
+		defaults: { name: 'Amazonaws Cloudhsmv2' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

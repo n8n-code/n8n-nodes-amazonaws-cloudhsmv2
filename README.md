@@ -53,9 +53,26 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Post copy backup to region, Post create cluster, Post create hsm, Post delete backup, Post delete cluster, Post delete hsm, Post describe backups, Post describe clusters, Post initialize cluster, Post list tags, Post modify backup attributes, Post modify cluster, Post restore backup, Post tag resource, Post untag resource |
+<details>
+<summary><b>Default</b> (15 operations)</summary>
+
+- Post Copy Backup To Region
+- Post Create Cluster
+- Post Create Hsm
+- Post Delete Backup
+- Post Delete Cluster
+- Post Delete Hsm
+- Post Describe Backups
+- Post Describe Clusters
+- Post Initialize Cluster
+- Post List Tags
+- Post Modify Backup Attributes
+- Post Modify Cluster
+- Post Restore Backup
+- Post Tag Resource
+- Post Untag Resource
+
+</details>
 
 ---
 

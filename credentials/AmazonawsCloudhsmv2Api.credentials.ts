@@ -8,7 +8,7 @@ import type {
 export class AmazonawsCloudhsmv2Api implements ICredentialType {
 	name = 'N8nDevAmazonawsCloudhsmv2Api';
 
-	displayName = 'amazonaws-cloudhsmv2 API';
+	displayName = 'Amazonaws Cloudhsmv2 API';
 
 	icon: Icon = { light: 'file:../nodes/AmazonawsCloudhsmv2/amazonaws-cloudhsmv2.png', dark: 'file:../nodes/AmazonawsCloudhsmv2/amazonaws-cloudhsmv2.dark.png' };
 
@@ -22,7 +22,7 @@ export class AmazonawsCloudhsmv2Api implements ICredentialType {
 			default: '',
 			required: true,
 			placeholder: 'http://cloudhsmv2.us-east-1.amazonaws.com',
-			description: 'The base URL of your amazonaws-cloudhsmv2 API server',
+			description: 'The base URL of your Amazonaws Cloudhsmv2 API server',
 		},
 		{
 			displayName: 'API Key',

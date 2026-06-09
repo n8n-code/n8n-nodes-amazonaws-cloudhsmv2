@@ -224,7 +224,7 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "Baldr Api Service Copy Backup To Region",
+					"name": "Baldr API Service Copy Backup To Region",
 					"value": "BaldrApiService.CopyBackupToRegion"
 				}
 			],
@@ -274,7 +274,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Backup Id",
+			"displayName": "Backup ID",
 			"name": "BackupId",
 			"type": "string",
 			"default": "",
@@ -375,7 +375,7 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "Baldr Api Service Create Cluster",
+					"name": "Baldr API Service Create Cluster",
 					"value": "BaldrApiService.CreateCluster"
 				}
 			],
@@ -449,7 +449,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Source Backup Id",
+			"displayName": "Source Backup ID",
 			"name": "SourceBackupId",
 			"type": "string",
 			"default": "",
@@ -576,7 +576,7 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "Baldr Api Service Create Hsm",
+					"name": "Baldr API Service Create Hsm",
 					"value": "BaldrApiService.CreateHsm"
 				}
 			],
@@ -600,7 +600,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Cluster Id",
+			"displayName": "Cluster ID",
 			"name": "ClusterId",
 			"type": "string",
 			"default": "",
@@ -727,7 +727,7 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "Baldr Api Service Delete Backup",
+					"name": "Baldr API Service Delete Backup",
 					"value": "BaldrApiService.DeleteBackup"
 				}
 			],
@@ -751,7 +751,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Backup Id",
+			"displayName": "Backup ID",
 			"name": "BackupId",
 			"type": "string",
 			"default": "",
@@ -827,7 +827,7 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "Baldr Api Service Delete Cluster",
+					"name": "Baldr API Service Delete Cluster",
 					"value": "BaldrApiService.DeleteCluster"
 				}
 			],
@@ -851,7 +851,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Cluster Id",
+			"displayName": "Cluster ID",
 			"name": "ClusterId",
 			"type": "string",
 			"default": "",
@@ -927,7 +927,7 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "Baldr Api Service Delete Hsm",
+					"name": "Baldr API Service Delete Hsm",
 					"value": "BaldrApiService.DeleteHsm"
 				}
 			],
@@ -951,7 +951,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Cluster Id",
+			"displayName": "Cluster ID",
 			"name": "ClusterId",
 			"type": "string",
 			"default": "",
@@ -976,7 +976,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Hsm Id",
+			"displayName": "Hsm ID",
 			"name": "HsmId",
 			"type": "string",
 			"default": "",
@@ -1001,7 +1001,7 @@ export const defaultDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Eni Id",
+			"displayName": "Eni ID",
 			"name": "EniId",
 			"type": "string",
 			"default": "",
@@ -1152,7 +1152,7 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "Baldr Api Service Describe Backups",
+					"name": "Baldr API Service Describe Backups",
 					"value": "BaldrApiService.DescribeBackups"
 				}
 			],
@@ -1376,7 +1376,7 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "Baldr Api Service Describe Clusters",
+					"name": "Baldr API Service Describe Clusters",
 					"value": "BaldrApiService.DescribeClusters"
 				}
 			],
@@ -1525,7 +1525,7 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "Baldr Api Service Initialize Cluster",
+					"name": "Baldr API Service Initialize Cluster",
 					"value": "BaldrApiService.InitializeCluster"
 				}
 			],
@@ -1549,7 +1549,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Cluster Id",
+			"displayName": "Cluster ID",
 			"name": "ClusterId",
 			"type": "string",
 			"default": "",
@@ -1727,7 +1727,7 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "Baldr Api Service List Tags",
+					"name": "Baldr API Service List Tags",
 					"value": "BaldrApiService.ListTags"
 				}
 			],
@@ -1751,7 +1751,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Resource Id",
+			"displayName": "Resource ID",
 			"name": "ResourceId",
 			"type": "string",
 			"default": "",
@@ -1877,7 +1877,7 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "Baldr Api Service Modify Backup Attributes",
+					"name": "Baldr API Service Modify Backup Attributes",
 					"value": "BaldrApiService.ModifyBackupAttributes"
 				}
 			],
@@ -1901,7 +1901,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Backup Id",
+			"displayName": "Backup ID",
 			"name": "BackupId",
 			"type": "string",
 			"default": "",
@@ -2003,7 +2003,7 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "Baldr Api Service Modify Cluster",
+					"name": "Baldr API Service Modify Cluster",
 					"value": "BaldrApiService.ModifyCluster"
 				}
 			],
@@ -2053,7 +2053,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Cluster Id",
+			"displayName": "Cluster ID",
 			"name": "ClusterId",
 			"type": "string",
 			"default": "",
@@ -2129,7 +2129,7 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "Baldr Api Service Restore Backup",
+					"name": "Baldr API Service Restore Backup",
 					"value": "BaldrApiService.RestoreBackup"
 				}
 			],
@@ -2153,7 +2153,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Backup Id",
+			"displayName": "Backup ID",
 			"name": "BackupId",
 			"type": "string",
 			"default": "",
@@ -2229,7 +2229,7 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "Baldr Api Service Tag Resource",
+					"name": "Baldr API Service Tag Resource",
 					"value": "BaldrApiService.TagResource"
 				}
 			],
@@ -2253,7 +2253,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Resource Id",
+			"displayName": "Resource ID",
 			"name": "ResourceId",
 			"type": "string",
 			"default": "",
@@ -2355,7 +2355,7 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "Baldr Api Service Untag Resource",
+					"name": "Baldr API Service Untag Resource",
 					"value": "BaldrApiService.UntagResource"
 				}
 			],
@@ -2379,7 +2379,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Resource Id",
+			"displayName": "Resource ID",
 			"name": "ResourceId",
 			"type": "string",
 			"default": "",
